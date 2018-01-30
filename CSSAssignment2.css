@@ -1,0 +1,30 @@
+.red {
+color: darkred;
+text-align: center
+    
+}
+
+.InfoCentered {
+    text-align: center
+}
+
+.button {
+    background-color: rgb(230, 230, 255);
+    padding: 5px 5px;
+    border: 2px solid black; 
+    font-size: 16px;
+}
+
+a:link {
+    color: blue;
+}
+
+a:hover {
+    color: red;
+}
+a:active {
+    color: lightgoldenrodyellow;
+}
+a:used {
+    color: blue;
+}
