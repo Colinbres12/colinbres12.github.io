@@ -1,0 +1,36 @@
+<!doctype html>
+
+<!-- Assessment 3 -->
+
+
+
+
+<html>
+    <head>
+      
+	    <title>Assessment 3</title>
+	    
+    </head>
+    
+    <body>
+    <p id="text">   </p>
+        <script>
+            var password = "ilovekarl";
+            var guess = prompt("Please enter your password.", "Password"); 
+        
+            if (password == guess) {
+                document.getElementById("text").innerHTML = "Login succesful";
+            }
+            
+            while (password != guess)  {
+                var guess = prompt("Incorrect please try again.", "Password");
+                document.getElementById("text").innerHTML = "Login failed";
+            }
+             document.getElementById("text").innerHTML = "Login succesful"
+            
+        </script>
+        
+      
+    </body>
+    
+</html>
